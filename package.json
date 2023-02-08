@@ -1,6 +1,6 @@
 {
     "name": "@danielwang/aemo-gel-icon",
-    "version": "1.0.1",
+    "version": "1.1.0",
     "description": "AEMO GEL system icon package.",
     "main": "index.js",
     "scripts": {
@@ -15,9 +15,6 @@
     "bugs": {
       "url": "https://github.com/danielwang/aemo-gel-icon/issues"
     },
-    "homepage": "https://github.com/danielwang/aemo-gel-icon#readme",
-    "dependencies": {
-      "@danielwang/aemo-gel-icon": "^1.0.0"
-    }
+    "homepage": "https://github.com/danielwang/aemo-gel-icon#readme"
   }
   
