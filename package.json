@@ -1,6 +1,6 @@
 {
     "name": "@danielwang/aemo-gel-icon",
-    "version": "1.1.0",
+    "version": "1.1.1",
     "description": "AEMO GEL system icon package.",
     "main": "index.js",
     "scripts": {
