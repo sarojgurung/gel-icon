@@ -1,0 +1,23 @@
+{
+    "name": "@danielwang/aemo-gel-icon",
+    "version": "1.0.1",
+    "description": "AEMO GEL system icon package.",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/danielwang/aemo-gel-icon.git"
+    },
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/danielwang/aemo-gel-icon/issues"
+    },
+    "homepage": "https://github.com/danielwang/aemo-gel-icon#readme",
+    "dependencies": {
+      "@danielwang/aemo-gel-icon": "^1.0.0"
+    }
+  }
+  

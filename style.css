@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'GEL-icon';
-  src:  url('fonts/GEL-icon.eot?47x31w');
-  src:  url('fonts/GEL-icon.eot?47x31w#iefix') format('embedded-opentype'),
-    url('fonts/GEL-icon.ttf?47x31w') format('truetype'),
-    url('fonts/GEL-icon.woff?47x31w') format('woff'),
-    url('fonts/GEL-icon.svg?47x31w#GEL-icon') format('svg');
+  src:  url('fonts/GEL-icon.eot?bi7umz');
+  src:  url('fonts/GEL-icon.eot?bi7umz#iefix') format('embedded-opentype'),
+    url('fonts/GEL-icon.ttf?bi7umz') format('truetype'),
+    url('fonts/GEL-icon.woff?bi7umz') format('woff'),
+    url('fonts/GEL-icon.svg?bi7umz#GEL-icon') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -25,6 +25,62 @@ i {
   -moz-osx-font-smoothing: grayscale;
 }
 
+.pi-bus:before {
+  content: "\e96b";
+  color: #6b778c;
+}
+.pi-capacitor:before {
+  content: "\e96c";
+  color: #6b778c;
+}
+.pi-chart-bar:before {
+  content: "\e96d";
+  color: #6b778c;
+}
+.pi-chart-line:before {
+  content: "\e96e";
+  color: #6b778c;
+}
+.pi-generator:before {
+  content: "\e96f";
+  color: #6b778c;
+}
+.pi-hvdc:before {
+  content: "\e970";
+  color: #6b778c;
+}
+.pi-interconn:before {
+  content: "\e971";
+  color: #6b778c;
+}
+.pi-load:before {
+  content: "\e972";
+  color: #6b778c;
+}
+.pi-reactor:before {
+  content: "\e973";
+  color: #6b778c;
+}
+.pi-svc:before {
+  content: "\e974";
+  color: #6b778c;
+}
+.pi-table:before {
+  content: "\e975";
+  color: #6b778c;
+}
+.pi-transformer-dual:before {
+  content: "\e976";
+  color: #6b778c;
+}
+.pi-transformer-triple:before {
+  content: "\e977";
+  color: #6b778c;
+}
+.pi-transmission-line:before {
+  content: "\e978";
+  color: #6b778c;
+}
 .pi-angle-double-down:before {
   content: "\e900";
   color: #6b778c;
@@ -229,10 +285,6 @@ i {
   content: "\e932";
   color: #6b778c;
 }
-.pi-external-link:before {
-  content: "\e933";
-  color: #6b778c;
-}
 .pi-eye-slash:before {
   content: "\e934";
   color: #6b778c;
@@ -255,10 +307,6 @@ i {
 }
 .pi-file-pdf:before {
   content: "\e939";
-  color: #6b778c;
-}
-.pi-file-plus:before {
-  content: "\e93a";
   color: #6b778c;
 }
 .pi-file-text:before {
@@ -451,5 +499,13 @@ i {
 }
 .pi-window-minimize:before {
   content: "\e96a";
+  color: #6b778c;
+}
+.pi-external-link:before {
+  content: "\e933";
+  color: #6b778c;
+}
+.pi-file-plus:before {
+  content: "\e93a";
   color: #6b778c;
 }
