@@ -8,7 +8,7 @@ GEL icon library is a collection of web icons and system icons that are custom t
 Run the following command to install the package
 
 ```bash
-npm install @danielwang/aemo-gel-icon@1.1.0
+npm install @danielwang/aemo-gel-icon
 ```
 
 ### Import 
