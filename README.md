@@ -38,6 +38,25 @@ When creating new icons, consider the following guidelines to ensure consistency
 * Consider using the [grid](https://m3.material.io/styles/icons/designing-icons#6e78ff9d-bf70-4b1d-8eab-c2058438e565) to make icons with similar weight when creating icons.
 ![image](https://lh3.googleusercontent.com/zYEU6tbcRdmpAzAypRZsj8z6tMpgWp0VMgGWJKL75ep5d9nB11-7vmMGJhUtuAaQiZqKVNyCPrQ8QTblK_iLeO0f3xRg0sl6cEG-WQCQdvBH=s0)
 
+
+## Adding icons to the library
+
+There can be situation where you have to create icons that are customized to your project. After creating the icons, we use [Icomoon](https://icomoon.io/) to bundle the fonticon before adding to the package for other projects to download from GEL.
+The following steps can be taken to add icons to the AEMO GEL icon library using Icomoon.
+* Add the icons into the collection inside Icomoon
+* From the fonticon tab at the bottom of the screen, click download
+* Ensure that these files are present in downloaded folder. You can check if the icons are present by opening the demo.html
+```bash
+├── font                    # generated font folder
+├── selection.json          # json format of all the available fonticon
+├── style.css               # CSS format of all the available fonticon
+```
+* Change the version of the library
+* Consider adding an image with all the icon library including the new icons for easy scan of what fonticons are available
+* Publish the changes with addition of new icon
+* Upload the file to [https://github.com/danielwang/aemo-gel-icon](https://github.com/danielwang/aemo-gel-icon)
+
+
 ## Figma Design File 
 
 https://www.figma.com/file/kzLxtqv6YGL0wotiqzgEo4/GEL-UI-Doc?node-id=167%3A22885&t=0c23FBxY56KakK7g-4
